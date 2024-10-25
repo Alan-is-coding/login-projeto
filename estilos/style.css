@@ -20,7 +20,7 @@
 }
 
 body, html{
-    background-color: #7db22c;
+    background-color: #6eb931;
     height: 100vh;
     width: 100vw;
 }
@@ -52,7 +52,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: #7db22c url(../imagens/pexels-pixabay-158140.jpg) no-repeat;
+    background: #6eb931 url(../imagens/pexels-pixabay-158140.jpg) no-repeat;
     background-size: cover;
     height: 190px;
 
