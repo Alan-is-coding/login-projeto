@@ -13,7 +13,8 @@
 */
 
 *{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -66,7 +67,9 @@ section#login > div#formulario{
 }
 
 section#login > div#formulario > h1{
-    font-family: Agdasima;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
     font-size: 2.5em;
     color: rgb(63, 38, 31);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.226);
@@ -93,12 +96,32 @@ div#formulario > p#paragrafo2{
 div#campo > input#ilogin{
     margin-left: 35px;
     margin-top: 5%;
+    border: 2px solid #ccc; /* Borda cinza clara */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombreamento suave */
+    padding: 20px; /* Espaçamento interno */
 }
 
 div#campo > input#isenha{
+    border: 2px solid #ccc; /* Borda cinza clara */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombreamento suave */
+    padding: 20px; /* Espaçamento interno */
     margin-left: 35px;
 }
 
 input#ibotao{
     margin-left: 35px;
+    border: none; /* Sem borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombreamento suave */
+    padding: 5px 10px; /* Espaçamento interno */
+    background-color: #2b5a2d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
+
+       
+
