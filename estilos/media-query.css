@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    body{
-        background-image: linear-gradient(to bottom, #6eb931,#a58463 );
-    }
     section#login{
         width: 90vw;
 
@@ -15,22 +12,32 @@
     
     section#login > div#imagem{
         float:left;
-        width: 40%;
+        width: 48%;
         height: 100%;
         background-position: center;
     }
 
     section#login > div#formulario{
         float: right;
-        width: 60%;
+        width: 52%;
+    }
+    
+    div#campo > input#ilogin{
+        margin-left: 110px;
+        margin-top: 5%;
+    }
+
+    div#campo > input#isenha{
+        margin-left: 110px;
+    }
+
+    input#ibotao{
+        margin-left: 110px;
     }
 }
 
 
 @media screen and (min-width:992px){
-    body{
-        background-image: linear-gradient(to bottom, #6eb931,#896d58 );
-    }
     section#login{
         width: 990px;
 
@@ -51,13 +58,27 @@
         float: right;
         width: 45%;
     }
+
+    
+    div#campo > input#ilogin{
+        margin-left: 130px;
+        margin-top: 5%;
+    }
+
+    div#campo > input#isenha{
+        margin-left: 130px;
+    }
+
+    input#ibotao{
+        margin-left: 130px;
+     }
 }
 
-div#formulario > h1{
-    text-align: center;
-    margin-bottom: 10px;
-}
+    div#formulario > h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-div#formulario > p{
-    font-size: 1em;
-}
+    div#formulario > p{
+        font-size: 1em;
+    }
