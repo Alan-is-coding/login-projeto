@@ -24,7 +24,8 @@
     
     div#campo > input#ilogin{
         margin-left: 110px;
-        margin-top: 5%;
+        margin-top: 10%;
+        margin-bottom: 1%;
     }
 
     div#campo > input#isenha{
@@ -61,16 +62,17 @@
 
     
     div#campo > input#ilogin{
-        margin-left: 130px;
-        margin-top: 5%;
+        margin-left: 110px;
+        margin-top: 10%;
+        margin-bottom: 1%;
     }
 
     div#campo > input#isenha{
-        margin-left: 130px;
+        margin-left: 110px;
     }
 
     input#ibotao{
-        margin-left: 130px;
+        margin-left: 110px;
      }
 }
 
