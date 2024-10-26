@@ -40,7 +40,7 @@ section#login{
 
 
 
-    background-color: #ffffffb0;
+    background-color: #ffffff7c;
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -89,3 +89,16 @@ div#formulario > p#paragrafo2{
     text-align: center;
     color: rgb(51, 33, 17)
 }
+
+div#campo > input#ilogin{
+    margin-left: 35px;
+    margin-top: 5%;
+}
+
+div#campo > input#isenha{
+    margin-left: 35px;
+}
+
+input#ibotao{
+    margin-left: 35px;
+ }
