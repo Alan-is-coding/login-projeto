@@ -113,9 +113,9 @@ div#campo > input#isenha{
 input#ibotao{
     margin-left: 35px;
     border: none; /* Sem borda padrão */
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 10px; /* Bordas arredondadas */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombreamento suave */
-    padding: 5px 10px; /* Espaçamento interno */
+    padding: 6px 10px; /* Espaçamento interno */
     background-color: #2b5a2d; /* Cor de fundo */
     color: white; /* Cor do texto */
     cursor: pointer; /* Cursor de ponteiro */
@@ -127,6 +127,28 @@ input#ibotao{
     background-color: rgba(255, 255, 255, 0.596);
     color: #2b5a2d;
  }
+
+ form > a.esqueci {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 6.4px 6px;
+    background-color: #2b5a2d;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ form > a.esqueci:hover{
+    background-color: white;
+    color: #2b5a2d;
+ }
+ 
+
+
 
        
 
